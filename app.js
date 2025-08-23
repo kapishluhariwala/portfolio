@@ -77,6 +77,15 @@ function initTypingAnimation() {
     typeText();
 }
 
+document.querySelectorAll('.btn--primary').forEach(button => {
+    button.addEventListener('touchend', () => {
+        button.blur();
+    });
+    button.addEventListener('mouseup', () => {
+        button.blur();
+    });
+});
+
 // Navigation functionality
 function initNavigation() {
     // Get all navigation links (including hero buttons)
