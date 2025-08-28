@@ -1125,14 +1125,21 @@ body {
 .about-content {
   /* max-width: 800px; */
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .about-summary {
   font-size: 1.125rem;
   line-height: 1.7;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   color: var(--color-text-secondary);
+}
+
+.about-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-align: center;
 }
 
 .about-stats {
@@ -1710,8 +1717,8 @@ body {
   }
 
   .avatar-placeholder {
-    width: 150px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
     font-size: 2.5rem;
   }
 

@@ -463,7 +463,7 @@ function initScrollAnimations() {
             .project-card, .skill-tag, .cert-card, .achievement-card, .stat-item {
                 opacity: 0;
                 transform: translateY(20px);
-                transition: all 0.6s ease;
+                transition: all 0.3s ease;
             }
             
             .project-card.animate-in, .skill-tag.animate-in, .cert-card.animate-in, .achievement-card.animate-in, .stat-item.animate-in {
